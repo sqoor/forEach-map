@@ -299,7 +299,7 @@ function valTimesIndex(arr) {
 
 function extractKey(arr, key) {
   // your code here 
-  return arr.map(element => element.name);
+  return arr.map(element => element[key]);
 }
 
 
